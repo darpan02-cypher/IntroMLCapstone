@@ -1,0 +1,21 @@
+{
+  "subject_id": "S2",
+  "window_size_sec": 60,
+  "overlap": 0.0,
+  "sampling_frequency": 700,
+  "n_windows": 48,
+  "n_features": 45,
+  "label_mapping": {
+    "0": "Transient",
+    "1": "Baseline",
+    "2": "Stress",
+    "3": "Amusement",
+    "4": "Meditation"
+  },
+  "mindfulness_mapping": {
+    "1": 1.0,
+    "2": 0.0,
+    "3": 0.7,
+    "4": 0.9
+  }
+}
