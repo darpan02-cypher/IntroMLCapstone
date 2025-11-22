@@ -10,3 +10,10 @@ notebook
 shap
 tensorflow>=2.10  # optional for DL reproduction notebook
 tsfresh  # optional for automated feature extraction
+
+# Signal processing libraries for feature engineering
+neurokit2>=0.2.0        # Comprehensive biosignal processing
+biosppy>=2.0.0          # Alternative biosignal toolkit
+hrv-analysis>=1.0.4     # Specialized HRV analysis
+cvxopt>=1.3.0           # For cvxEDA decomposition
+antropy>=0.1.4          # Entropy measures for HRV
