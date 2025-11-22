@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+xgboost
+scipy
+jupyter
+notebook
+shap
+tensorflow>=2.10  # optional for DL reproduction notebook
+tsfresh  # optional for automated feature extraction
