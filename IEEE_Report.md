@@ -163,6 +163,20 @@ Wilcoxon signed-rank test for pairwise model comparison, significance threshold 
 4. **Tree-based models outperform linear and deep learning** approaches for this task
 5. **Multi-subject validation demonstrates robust generalization** across different individuals
 
+### E. Visualizations
+
+**Figure 1: Model Performance Comparison**
+
+![Model Comparison](visualizations/model_comparison.png)
+
+*Figure 1 shows comparative performance of all 5 models across R², MAE, and RMSE metrics. The Ensemble method (green) and XGBoost achieve the best performance.*
+
+**Figure 2: Actual vs Predicted Values (All Models)**
+
+![Actual vs Predicted](visualizations/all_models_predictions.png)
+
+*Figure 2 displays actual vs predicted mindfulness index for all models. Points closer to the diagonal red line indicate better predictions. Ensemble and XGBoost show tightest clustering around the perfect prediction line.*
+
 ---
 
 ## V. DISCUSSION
