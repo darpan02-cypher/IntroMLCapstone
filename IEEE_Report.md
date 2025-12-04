@@ -269,6 +269,6 @@ All source code, trained models, and data are available in the GitHub repository
 
 ---
 
-**Authors**: MindMe AI Capstone Team  
+**Authors**: Himanshi Shrivas  
 **Course**: Introduction to Machine Learning  
 **Date**: December 2025
