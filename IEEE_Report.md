@@ -1,5 +1,5 @@
 # Mindfulness Prediction from Wearable Physiological Data: 
-# A Machine Learning Approach
+## A Machine Learning Approach
 
 **Abstract**—This study presents a machine learning approach to predict mindfulness state from wearable physiological sensors using the WESAD dataset. We define mindfulness as the inverse of stress intensity and extract 45 features from HRV, EDA, respiratory, temperature, and activity signals. Five models were implemented and compared: Ridge Regression, Random Forest, XGBoost, an Ensemble method, and LSTM. Multi-subject validation across 7 subjects (345 samples) demonstrates that the Ensemble method achieves the best performance (R² = 0.906, MAE = 0.082). Physical activity variability emerges as the strongest predictor (110% importance), followed by skin conductance features. Statistical testing confirms significant performance differences between models. Results suggest feasibility of real-time mindfulness monitoring via wearable devices.
 
