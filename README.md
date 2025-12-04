@@ -7,7 +7,16 @@
 
 ## 📋 Project Overview
 
-This project predicts a continuous **mindfulness index** from wearable physiological sensor data using machine learning. We use the WESAD (Wearable Stress and Affect Detection) dataset and define mindfulness as the inverse of stress intensity.
+This project predicts a continuous **mindfulness index** from wearable physiological sensor data using machine learning. We use the **WESAD (Wearable Stress and Affect Detection)** dataset and define mindfulness as the inverse of stress intensity.
+- 15 subjects performing stress-inducing tasks
+- Chest device (RespiBAN): ECG, EDA, EMG, Temp, Respiration, Accelerometer @ 700 Hz
+- Wrist device (Empatica E4): BVP, EDA, Temp, Accelerometer @ varying rates
+- Labels: Baseline, Stress (TSST), Amusement, Meditation
+- **Interactive visualization**: https://kristofvl.github.io/wesadviz/
+
+**Dataset Source**:
+- Download: https://ubicomp.eti.uni-siegen.de/home/datasets/icmi18/
+- Extract to `notebooks/data/WESAD/` directory
 
 ### Key Results
 - **Best Model**: Ensemble Method (R² = 0.91)

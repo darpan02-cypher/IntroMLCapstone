@@ -51,6 +51,7 @@ Recent work has explored both classical ML (Random Forest, SVM) and deep learnin
 - Chest device (RespiBAN): ECG, EDA, EMG, Temp, Respiration, Accelerometer @ 700 Hz
 - Labels: Baseline (1), Stress/TSST (2), Amusement (3), Meditation (4), Transient (0)
 - Selected subjects: S2, S3, S4, S5, S6, S8, S10 (7 subjects)
+- Interactive visualization: https://kristofvl.github.io/wesadviz/
 
 ### B. Target Variable Definition
 
