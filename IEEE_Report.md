@@ -53,6 +53,12 @@ Recent work has explored both classical ML (Random Forest, SVM) and deep learnin
 - Selected subjects: S2, S3, S4, S5, S6, S8, S10 (7 subjects)
 - Interactive visualization: https://kristofvl.github.io/wesadviz/
 
+**Figure 1: WESAD Interactive Visualization Example**
+
+![WESAD Visualization](visualizations/wesad_interactive_viz.png)
+
+*Figure 1 shows the interactive visualization of Subject 2's physiological signals over time. The top panel displays raw signals (Respiration, ECG, Acceleration, Temperature, EDA, ECG) with color-coded experimental conditions (Base, TSST, aRest, Med1, Fun, Med2). The bottom panel shows detailed EDA and temperature signals. Pink regions indicate stress (TSST), yellow indicates meditation, and green indicates baseline states.*
+
 ### B. Target Variable Definition
 
 Mindfulness index defined as inverse of stress intensity:
