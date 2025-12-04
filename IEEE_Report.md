@@ -171,17 +171,17 @@ Wilcoxon signed-rank test for pairwise model comparison, significance threshold 
 
 ### E. Visualizations
 
-**Figure 1: Model Performance Comparison**
+**Figure 2: Model Performance Comparison**
 
 ![Model Comparison](visualizations/model_comparison.png)
 
-*Figure 1 shows comparative performance of all 5 models across R², MAE, and RMSE metrics. The Ensemble method (green) and XGBoost achieve the best performance.*
+*Figure 2 shows comparative performance of all 5 models across R², MAE, and RMSE metrics. The Ensemble method (green) and XGBoost achieve the best performance.*
 
-**Figure 2: Actual vs Predicted Values (All Models)**
+**Figure 3: Actual vs Predicted Values (All Models)**
 
 ![Actual vs Predicted](visualizations/all_models_predictions.png)
 
-*Figure 2 displays actual vs predicted mindfulness index for all models. Points closer to the diagonal red line indicate better predictions. Ensemble and XGBoost show tightest clustering around the perfect prediction line.*
+*Figure 3 displays actual vs predicted mindfulness index for all models. Points closer to the diagonal red line indicate better predictions. Ensemble and XGBoost show tightest clustering around the perfect prediction line.*
 
 ---
 
