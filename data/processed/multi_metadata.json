@@ -1,0 +1,18 @@
+{
+  "subjects": [
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S8",
+    "S10"
+  ],
+  "n_subjects": 7,
+  "total_samples": 345,
+  "n_features": 45,
+  "window_size_sec": 60,
+  "train_size": 276,
+  "test_size": 69,
+  "random_state": 42
+}

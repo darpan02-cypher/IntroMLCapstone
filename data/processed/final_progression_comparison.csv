@@ -1,0 +1,7 @@
+Dataset,Model,R²,MAE,N_subjects,N_train,N_test
+Single-Subject (S2),XGBoost,0.9606,0.0325,1,38,10
+Single-Subject (S2),Random Forest,0.7254,0.0901,1,38,10
+4-Subject (S2-S5),XGBoost,0.8775,0.0749,4,156,40
+4-Subject (S2-S5),Random Forest,0.7725,0.1423,4,156,40
+"7-Subject (S2-S6,S8,S10)",XGBoost,0.9021,0.0763,7,276,69
+"7-Subject (S2-S6,S8,S10)",Random Forest,0.8696,0.1016,7,276,69
