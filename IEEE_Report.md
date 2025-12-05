@@ -261,11 +261,14 @@ All source code, trained models, and data are available in the GitHub repository
 **Repository**: https://github.com/darpan02-cypher/IntroMLCapstone
 
 **Key Files**:
-- `src/models.py` - Model implementations
-- `train_multi_subject_models.py` - Classical models training
-- `train_literature_models.py` - Literature-based models (Ensemble + LSTM)
-- `comparative_analysis.py` - Statistical comparison
-- `extract_multi_subject_features.py` - Feature extraction
+- `src/models.py` - Model implementations and utilities
+- `models/01_ridge_regression.ipynb` - Ridge Regression (Classical)
+- `models/02_random_forest.ipynb` - Random Forest (Classical)
+- `models/03_xgboost.ipynb` - XGBoost (Classical)
+- `models/04_literature_ensemble.ipynb` - Ensemble Method (Literature)
+- `models/05_literature_lstm.ipynb` - LSTM Deep Learning (Literature)
+- `comparative_analysis.py` - Statistical comparison of all models
+- `extract_multi_subject_features.py` - Feature extraction pipeline
 
 ---
 

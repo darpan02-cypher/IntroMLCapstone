@@ -65,6 +65,12 @@ IntroMLCapstone/
 │   ├── 02_feature_engineering.ipynb      # Feature extraction demo
 │   ├── 03_preprocessing.ipynb            # Data preprocessing
 │   └── 04_classical_models.ipynb         # Classical ML models
+├── models/
+│   ├── 01_ridge_regression.ipynb         # Model 1 (Class)
+│   ├── 02_random_forest.ipynb            # Model 2 (Class)
+│   ├── 03_xgboost.ipynb                  # Model 3 (Class)
+│   ├── 04_literature_ensemble.ipynb      # Model 4 (Literature)
+│   └── 05_literature_lstm.ipynb          # Model 5 (Literature)
 ├── src/
 │   ├── features.py            # Feature extraction functions
 │   ├── models.py              # Model training utilities
@@ -107,20 +113,30 @@ IntroMLCapstone/
 # Extract features for 7 subjects
 python extract_multi_subject_features.py
 
-# Train classical models
-python train_multi_subject_models.py
-
-# Train literature-based models
-python train_literature_models.py
-
-# Run comparative analysis
+# Run comparative analysis of all 5 models
 python comparative_analysis.py
 ```
 
-#### Using Jupyter Notebooks
+#### Run Individual Models
+
+Open and execute any of the 5 model notebooks in Jupyter:
 
 ```bash
-jupyter notebook notebooks/04_classical_models.ipynb
+# Start Jupyter
+jupyter notebook
+
+# Then open any model notebook:
+# - models/01_ridge_regression.ipynb
+# - models/02_random_forest.ipynb
+# - models/03_xgboost.ipynb
+# - models/04_literature_ensemble.ipynb
+# - models/05_literature_lstm.ipynb
+```
+
+#### Exploratory Analysis
+
+```bash
+jupyter notebook notebooks/01_EDA_starter.ipynb
 ```
 
 ## 📈 Methodology

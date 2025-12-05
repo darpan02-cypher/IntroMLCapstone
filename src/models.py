@@ -22,7 +22,11 @@ from sklearn.linear_model import Ridge, Lasso, ElasticNet
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import GridSearchCV, cross_val_score
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
-import xgboost as xgb
+try:
+    import xgboost as xgb
+except ImportError:
+    xgb = None
+
 
 # Set style for plots
 sns.set_style("whitegrid")
@@ -344,6 +348,9 @@ class XGBoostModel(BaseRegressorWrapper):
     
     def create_model(self, **params):
         """Create XGBoost instance."""
+        if xgb is None:
+            raise ImportError("XGBoost is not installed. Please install it with: pip install xgboost")
+            
         default_params = {
             'n_estimators': 100,
             'random_state': self.random_state,
